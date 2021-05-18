@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.telekom.sea</groupId>
-    <artifactId>JDBC</artifactId>
+    <groupId>de.telekom.jdbcchallenge</groupId>
+    <artifactId>JDBC_quiz</artifactId>
     <version>1.0</version>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -42,7 +42,7 @@
                         </descriptorRefs>
                         <archive>
                             <manifest>
-                                <mainClass>de.telekom.jdbcchallenge.Main</mainClass>
+                                <mainClass>Main</mainClass>
                             </manifest>
                         </archive>
                     </configuration>
